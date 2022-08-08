@@ -1,13 +1,13 @@
 #mainstyle {
-background-color: black;
+background-color: blue;
 color: white;
 text-align: center;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#runesstyle{
-background-color: black;
-font-family:fantasy;
-text-decoration: wavy;
-color: orangered;
+#rectangle {
+    height: 100px;
+    width: 930px;
+    background-color: black;
+
 }
