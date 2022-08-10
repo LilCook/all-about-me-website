@@ -5,9 +5,16 @@ text-align: center;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#rectangle {
-    height: 100px;
-    width: 930px;
-    background-color: black;
+body {
+margin: 0;
+}
 
+.header {
+padding: 90px;
+margin: 0px;
+background-color: black;
+text-align:center ;
+color: white;
+font-size: 30px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
