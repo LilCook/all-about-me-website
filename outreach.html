@@ -7,6 +7,8 @@
 
   <body id="mainstyle">
     <style>
+
+      /* code for main page styles (except the body style)*/
       #mainstyle {
        background-color: white;
        color: black;
@@ -18,7 +20,7 @@
       body {
        margin: 0;
       }
-
+      /*code for header*/
       .header {
        padding: 90px;
        margin: 0px;
@@ -29,7 +31,6 @@
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
       }
 
-      /*code for main page is above, hamburger menu is below*/
 
       #menu_toggle {
         opacity: 0;
@@ -87,11 +88,13 @@
         margin: 0;
         padding: 80px 0;
         list-style: none;
+        /* this edits the bar itself*/
         background-color: #eceff1;
         box-shadow: 2px 2px 6px rgba(0, 0, 0, 4);
         transition-duration: .25s;
       }
       .menu_item {
+        /* this changes the item (where you want to go) i.e. track blog*/
         display: block;
         padding: 12px 24px;
         color: #333;
@@ -111,10 +114,36 @@
     </div>
 
     
-    <a href = "mailto: bcook468@gmail.com">Click Here to get in touch with me!</a>
-  <a href="https://www.linkedin.com/in/brady-cook-3168a9229?trk=people-guest_people_search-card&challengeId=AQE8e8g6OjgCOAAAAYFzxYuph7Xm6jqeP2J5IBqmVRFN02AG-o6QDibFoq0Ns2IdMMKMnCv8dmQ4x0ZW38teaeaU0bmWYv3pYw&submissionId=2269d9fc-c888-f916-e85f-f88d0dffe773&challengeSource=AgHTGPfmaKp3iAAAAYFzxdDxLl0cfNvrJcaQj8V0qrHUv92Rn1Ok7JKOjhXJSUs&challegeType=AgFDq6YBnS9fVwAAAYFzxdD0fTB4EtlsvzEgH1KEx96DZCsZ9GRlDcA&memberId=AgHHWcS-QJu70AAAAYFzxdD3ndW4XVFhxpTYfzBNRnlY8Ac"> Here is my Linkedin profile as well. Feel free to Connect!</a>
-  <a href = "mailto: bcook468@gmail.com">Click Here to get in touch with me!</a> 
-
+    
+    <!--Gmail Logo--> 
+  <a href = "mailto: bcook468@gmail.com">
+  <img src="./assets/Gmail-logo.png" alt="Click to email me!"
+  width="400px" height="200px">
+  </a>
+</br>
+</br>
+  <!--LinkedIn Logo--> 
+  <a href="https://www.linkedin.com/in/brady-cook-3168a9229/">
+  <img src="./assets/Linkedin-Logo.png" alt="Click here to connect with me!"
+  width="400px" height="200px">
+  </a>
+<br>
+</br>
+</br>
+  <!--DevPost Logo--> 
+  <a href="https://devpost.com/bcook468">
+  <img src="./assets/devpost_logo.png" alt="Click here to view my DevPost account!"
+  width="400px" height="200px">
+  </a>
+<br>
+</br>
+</br>
+  <!--GitHub Logo--> 
+  <a href="https://github.com/LilCook">
+    <img src="./assets/GitHub-Mark-64px.png" alt="Click here to view my GittHub account!"
+    width="200px" height="200px">
+    </a>
+    <!--Hamburger Menu--> 
     <div class="hamburger-menu">
       <input id="menu_toggle" type="checkbox">
       <label class="menu_btn" for="menu_toggle">
@@ -130,5 +159,7 @@
         <li> <a class="menu_item" href="about-me.html"> About Me</a></li>
       </ul>
     </div>
+
+    <p> All logos belong to their respective brands.</p>
     </body>
 </html> 
