@@ -1,0 +1,11 @@
+.enc-btn {
+    background-color: #02bc15;
+    border: none;
+    border-radius: .5rem;
+    font-size: 12px;
+    color: white;
+  }
+  
+  .opened {
+    background-color: #ff3030
+  }

@@ -7,7 +7,8 @@
 
   <body id="mainstyle">
     <style>
-      #mainstyle {
+       /* code for main page styles (except the body style)*/
+       #mainstyle {
        background-color: white;
        color: black;
        text-align: center;
@@ -31,6 +32,10 @@
       }
 
       /*code for main page is above, hamburger menu is below*/
+
+      #menu_toggle {
+        opacity: 0;
+      }
 
       #menu_toggle {
         opacity: 0;
@@ -119,9 +124,9 @@
     If you're here for my Cross Country/Track and Field blog, you can access it through the side menu by clicking on the hamburger bars.</p>
 
     <div class="hamburger-menu">
-      <input id="menu_toggle" type="checkbox">
+      <input id="menu_toggle" type="checkbox" onclick="getElementById('menu_btn').stylecolor='blue'">
       <label class="menu_btn" for="menu_toggle">
-        <img width="200%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/800px-Hamburger_icon_white.svg.png?20190820131613"/>
+        <img width="200%" src="align-justify.svg"/>
       </label>
 
       <ul class="menu_box">
