@@ -1,0 +1,168 @@
+/*styling for body, text, and menu elements*/
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbarclass { 
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+.navbarclass a {
+    color: white;
+    font-size: large;
+    font-family: 'Inter';
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background-color 0.3s ease;
+}
+.navbarclass a:hover {
+    background-color: #333;
+} 
+.title_container {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-image: url("images/bluecodingbackground.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.title_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: 'Inter';
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.bodystyle {
+    color: white; 
+    background-color: #4682B4;
+    text-align: center;
+    align-items: center;
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ol {
+    margin: auto; 
+    align-items: center; 
+}
+.bodystyle h1 {
+    padding: 10px;
+}
+.bodystyle a {
+    text-decoration: none;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+/* Style for social media icons */
+a i {
+    font-size: 48px;      
+    color: #333;          
+    margin: 10px;         
+    transition: color 0.3s; 
+}
+  
+/* Hover effect for the projects tab */
+a i:hover {
+    /*color: #0073b1;*/
+    color:gray       
+}
+/*styles for the tabs on the projects and experience pages*/
+.page_header {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+    font-family:inherit;
+    color: inherit;
+}
+.page_content {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+    color: inherit;
+    font-family:inherit;
+}
+
+.timeline {
+position: relative;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+list-style-type: none;
+}
+
+.timeline-item {
+display: flex;
+justify-content: flex-start;
+margin-bottom: 30px;
+position: relative;
+}
+
+.timeline-dot {
+background-color: black;
+color: white;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+position: absolute;
+left: -10px;
+top: 10px;
+}
+
+.timeline-content {
+background: white; 
+padding: 20px;
+border-radius: 8px;
+width: 100%;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+margin-left: 40px;
+position: relative;
+color: white; 
+font-family:inherit;
+}
+
+.timeline-content h3 {
+color: #0073b1;
+font-size: 24px;
+margin-bottom: 10px;
+font-family:inherit;
+}
+
+.timeline-content p {
+font-size: 16px;
+color: gray;
+font-family:inherit;
+}
+
+/* Add hover effect for the timeline items */
+.timeline-item:hover .timeline-content {
+transform: scale(1.05);
+transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+.timeline-item {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.timeline-content {
+    margin-left: 0;
+}
+}
